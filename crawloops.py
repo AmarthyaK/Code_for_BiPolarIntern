@@ -116,7 +116,7 @@ for i in range(0,len(bookmyshow.list_of_names)):
 for celeb in celebs:
     celeb.get_occupation()
     celeb.get_images()
-
+'''this loop takes care of downloading the images'''
 array_of_occupations = get_unique_occupations(celebs)
 stats = get_stats(array_of_occupations,celebs)
 '''The above 2 arrays are required for the bar plot'''
